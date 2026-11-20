@@ -1,0 +1,22 @@
+{
+  "name": "workbuddy-daily-guide",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "WorkBuddy 日常工作指南：简洁、实用的日常工作参考手册。",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vitepress dev docs --host 127.0.0.1",
+    "docs:dev": "vitepress dev docs --host 127.0.0.1",
+    "build": "vitepress build docs",
+    "docs:build": "vitepress build docs",
+    "preview": "vitepress preview docs --host 127.0.0.1",
+    "docs:preview": "vitepress preview docs --host 127.0.0.1"
+  },
+  "devDependencies": {
+    "mermaid": "11.16.0",
+    "vitepress": "1.6.4"
+  }
+}
